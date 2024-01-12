@@ -1,0 +1,60 @@
+
+.eye{
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+  border-radius: 85% 1%;
+  background: rgb(235, 235, 235);
+  position: relative;
+  overflow: hidden;
+  // transition: 0.5s;
+}
+.eye-ball-container{
+  width: 130%;
+  height: 80%;
+  position: relative;
+  transform: rotate(-45deg) translateX(-13%);
+}
+.eye-ball{
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  background: greenyellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+
+  .eye-retina {
+    width: 50%;
+    height: 50%;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .glow-o {
+      width: 26%;
+      height: 26%;
+      background: white;
+      position: absolute;
+      border-radius: 50%;
+      right: -20%;
+      top: 10%;
+      transform: translate(-100%, -30%);
+    }
+    .glow-t {
+      width: 10%;
+      height: 10%;
+      background: white;
+      position: absolute;
+      border-radius: 50%;
+      right: 20%;
+      top: 30%;
+      // transform: translate(-100%, -30%);
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.list-scroller {
+  animation: scroller 40s linear infinite;
+}
+.list-scroller::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
+
+@keyframes scroller {
+  to{
+    transform: translate(-100%);
+  }
+}

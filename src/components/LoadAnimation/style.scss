@@ -1,0 +1,52 @@
+.swipe-animation {
+  animation: opacityUp .8s 1 forwards, swipe .5s ease-in .9s 1 forwards;
+}
+@keyframes opacityUp {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes swipe {
+  0%{
+    transform: translateY(0%);
+  }
+  100%{
+    transform: translateY(-100%);
+    display: none;
+  }
+}
+.swiper {
+  max-width: 15rem;
+  animation: swiper 1.4s ease 1 1.6s forwards;
+  right: 0%;
+  width: 0%;
+  transform: translateX(-50%);
+}
+@keyframes swiper {
+  0% {
+    width: 0%;
+    right: 0%;
+  }
+  40% {
+    width: 30%;
+  }
+  100% {
+    width: 0%;
+    right: 100%;
+  }
+}
+.opacity-change {
+  animation: opacityOut 1.5s 1 forwards;
+}
+@keyframes opacityOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

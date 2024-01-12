@@ -1,0 +1,11 @@
+.introduction {
+  animation: opacityUp .9s ease-out 1 forwards;
+}
+@keyframes opacityUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
