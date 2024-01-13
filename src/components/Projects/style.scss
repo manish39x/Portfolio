@@ -1,0 +1,54 @@
+.project-1 {
+  width: 100%;
+  height: 40em;
+  background-image: url(../../assets/bg-image.jpg) ;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.project-2 {
+  width: 100%;
+  height: 40em;
+  background-image: url(../../assets/bg-image2.jpg) ;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.project-3 {
+  width: 100%;
+  height: 40em;
+  background-image: url(../../assets/bg-image3.jpg) ;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.font-head-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(50px, 12vw, 14rem);
+  font-weight: bolder;
+  transform: translateY(100%);
+  opacity: 0;
+  animation: slideUp 1s ease-out 1 forwards, fadeIn 1s ease-out forwards;
+  
+    @keyframes slideUp {
+      to {
+        transform: translateY(0%);
+      }
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  
+  @media (min-width: 760px) {
+    letter-spacing: .4rem;
+  }
+}
+.animate {
+
+}

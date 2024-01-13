@@ -20,7 +20,7 @@
 }
 .swiper {
   max-width: 15rem;
-  animation: swiper 1.4s ease 1 1.6s forwards;
+  animation: swiper 1s ease 1 1.6s forwards;
   right: 0%;
   width: 0%;
   transform: translateX(-50%);
@@ -39,7 +39,7 @@
   }
 }
 .opacity-change {
-  animation: opacityOut 1.5s 1 forwards;
+  animation: opacityOut 1.3s 1 forwards;
 }
 @keyframes opacityOut {
   0% {

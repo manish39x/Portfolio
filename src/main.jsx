@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 
 import './sass/tailwind.css'
+import './sass/portfolio.scss'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

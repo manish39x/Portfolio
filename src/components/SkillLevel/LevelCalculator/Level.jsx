@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import '../style.scss'
 
 const Level = ({stack, level}) => {
+  
   const container = useRef()
   const levelInner = useRef()
   
@@ -15,6 +16,8 @@ const Level = ({stack, level}) => {
       })
     }
   }, [])
+  
+  
   return (
     <div className='hover:text-[white] text-[#a1a0a0]' ref={container}>
       <div className=" flex gap-[10px] py-[10px]">

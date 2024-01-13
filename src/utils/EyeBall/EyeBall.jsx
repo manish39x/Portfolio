@@ -21,7 +21,8 @@ const EyeBall = () => {
 
     })
 
-    return document.addEventListener('mouseleave', (e) => {
+    return () => {
+      document.addEventListener('mouseleave', (e) => {
       const x = '50%';
       const y = '50%';
       if(eyeBall.current && eyeRetina.current) {
@@ -34,7 +35,8 @@ const EyeBall = () => {
         eyeRetina.current.style.transform = `translate(-${x}, -${y})`
       }
 
-    })
+      })
+    }
   },[])
 
 
@@ -53,7 +55,8 @@ const EyeBall = () => {
         eyeRetina.current.style.transform = `translate(-${x}, -${y})`
       }
     })
-    return document.removeEventListener('mousemove', (e) => {
+    return () => {
+      document.removeEventListener('mousemove', (e) => {
       const x = (e.clientX * 100 / window.innerWidth) + '%'
       const y = e.clientY * 100 / window.innerHeight + '%'
       // console.log(e.pageX, e.pageY);
@@ -66,7 +69,8 @@ const EyeBall = () => {
         eyeBall.current.style.transform = `translate(-${x}, -${y})`
         eyeRetina.current.style.transform = `translate(-${x}, -${y})`
       }
-    })
+      })
+    }
   },[])
   return (
     <div className='eye'>
