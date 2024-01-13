@@ -7,6 +7,7 @@ import Load from "./components/LoadAnimation/Load";
 import { useEffect, useState } from 'react';
 import Introduction from './components/Introduction/Introduction';
 import SkillsList from './components/SkillsList/SkillsList';
+import SkillLevel from './components/SkillLevel/SkillLevel';
 
 function App() {
   const [showSection, setShowSection] = useState(false)
@@ -47,6 +48,7 @@ function App() {
             </div>
             <Introduction />
             <SkillsList />
+            <SkillLevel />
           </div>
         ):(
           <Load />

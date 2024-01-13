@@ -30,6 +30,7 @@ const addAnimation = () => {
     scrollerContent.forEach(item => {
       const duplicatedItem = item.cloneNode(true)
       duplicatedItem.setAttribute('aria-hidden', true);
+      duplicatedItem.style.background= 'red'
       scrollerInner.current.appendChild(duplicatedItem)
     })
     console.log(scrollerContent);
