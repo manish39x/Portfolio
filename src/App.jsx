@@ -12,6 +12,10 @@ import SkillLevel from './components/SkillLevel/SkillLevel';
 function App() {
   const [showSection, setShowSection] = useState(false)
   useEffect(() => {
+    console.log('yes..');
+    window.scrollTo(0, 0);
+  },[])
+  useEffect(() => {
     const timeoutId = setTimeout(() => {
       setShowSection(true)
     },3000)

@@ -1,0 +1,17 @@
+.level-border {
+  border: .5px solid #777777;
+}
+.level {
+  width: 0;
+  background: #77777758;
+  animation: increase .8s ease-out 1 forwards;
+}
+@keyframes increase {
+  to {
+    width: 100%;
+  }
+}
+.inner-level {
+  // opacity: 1;
+  transition: 1.3s ease-out;
+}

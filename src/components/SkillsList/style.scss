@@ -1,3 +1,4 @@
+@import '../../sass/variable';
 .list-scroller {
   animation: scroller 40s linear infinite;
 }
@@ -10,4 +11,8 @@
   to{
     transform: translate(-100%);
   }
+}
+
+.frontend {
+  border-bottom: .5px solid $border_color;
 }
