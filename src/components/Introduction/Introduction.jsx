@@ -4,7 +4,7 @@ import './style.scss'
 const Introduction = () => {
   return (
     <div className='border-y flex-center px-2rem w-[100vw]'>
-      <div className="parent-container px-[1rem] sm:px-[2rem]">
+      <div className="parent-container px-[.5rem] sm:px-[2rem]">
         <div className="border-x m-auto relative py-[4rem]">
           <span className='text-white text-[14px] absolute top-[10px] left-[10px]'><span className='text-[greenyellow]'>01 </span>INTRODUCTION</span>
            <div className="introduction text-[#767474] text-[15px] w-[80%] lg:w-[55%] m-auto">

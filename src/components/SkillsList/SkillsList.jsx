@@ -48,7 +48,7 @@ useEffect(() => {
       {skills.map((skill, index) => (
         <span key={index} className='flex items-center gap-[2px] shrink-0'>
           {skill.isFontAwesome ? (
-            <i className={`fa-solid fa-${skill.icon} text-[18px]`}></i>
+            <i className={`fa-solid fa-${skill.icon} text-[18px] overflow-hidden`}></i>
           ) : (
             <ion-icon name={skill.icon}></ion-icon>
           )}

@@ -5,7 +5,7 @@ import Level from './LevelCalculator/Level';
 const SkillLevel = () => {
   return (
     <div className='w-screnn border-y flex-center'>
-      <div className="w-full h-full max-w-[110rem] px-[1rem] sm:px-[2rem] m-auto">
+      <div className="w-full h-full max-w-[110rem] px-[.5rem] sm:px-[2rem] m-auto">
         <div className="border-x ">
           <div className="frontend pt-[4rem] px-[1rem] relative ">
             <span className='text-[greenyellow] text-[14px] absolute top-[10px] left-[10px]'>02 <span className='text-white'>SKILLS: FRONTEND</span></span>

@@ -5,7 +5,7 @@ import EyeBall from '../../utils/EyeBall/EyeBall'
 const Spotlight = () => {
   return (
     <div className='  flex-center spotlight-container w-[100vw]  '>
-      <div className="px-[1rem] sm:px-[2rem] w-full h-full max-w-[110rem]">
+      <div className="px-[.5rem] sm:px-[2rem] w-full h-full max-w-[110rem]">
         <div className=" h-full spotlight w-full overflow-hidden text-white ">
           <div className="content py-[.7rem] px-[1rem] overflow-hidden ">
             <div className=" flex items-center gap-[3rem] sm:gap-[5rem] overflow-hidden">

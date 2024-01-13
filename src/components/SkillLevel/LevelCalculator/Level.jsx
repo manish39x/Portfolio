@@ -20,8 +20,8 @@ const Level = ({stack, level}) => {
   
   return (
     <div className='hover:text-[white] text-[#a1a0a0]' ref={container}>
-      <div className=" flex gap-[10px] py-[10px]">
-        <span className=' transition-[.5s] text-[12px] sm:text-[14px] w-[20%] max-[20px]'>{stack}:</span>
+      <div className=" flex gap-[5px] sm:gap-[10px] py-[10px]">
+        <span className=' transition-[.5s] text-[11px] sm:text-[14px] w-[28%] sm:w-[20%] md:w-[15%] max-[20px]'>{stack}:</span>
         <div className=" flex-1 level-border ">
             <div className={`
             ${level === 'intermediate' ? 'w-[66%]':' w-[50%]'}

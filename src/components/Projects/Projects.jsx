@@ -28,7 +28,7 @@ const Projects = () => {
   })
   return (
     <div className='border-y flex-center'>
-      <div className="px-[1rem] sm:px-[2rem] w-full h-full min-h-[30rem] max-w-[110rem]">
+      <div className="px-[.5rem] sm:px-[2rem] w-full h-full min-h-[30rem] max-w-[110rem]">
         <div className="border-x m-auto project-parent">
           <div className="head relative py-[4rem] overflow-hidden">
             <span className='text-white text-[14px] absolute top-[10px] left-[10px]'><span className='text-[greenyellow]'>03 </span>PEOJECTS</span>
