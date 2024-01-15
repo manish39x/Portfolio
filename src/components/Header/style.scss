@@ -2,3 +2,25 @@
 .header {
   border-bottom: .5px solid $border-color;
 }
+
+.menu {
+  background-color: rgba(127, 127, 127, 0.123);
+  backdrop-filter: blur(5px);
+
+  .menu-bar {
+    .vertical-scroller {
+      transform: rotate(270deg);
+      transform-origin: left;
+    }
+  }
+}
+
+.inner-scroller {
+  animation: slide 50s linear infinite;
+}
+
+@keyframes slide {
+  to {
+    transform: translate(-100%);
+  }
+}

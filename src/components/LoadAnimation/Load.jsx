@@ -18,7 +18,7 @@ const Load = () => {
       <div className="logo-load">
         <div className="swipe-animation flex flex-col overflow-hidden leading-6 text-[#ffffff] ">
           <span className='text-[16px] overflow-hidden leading-5 '>MANISH'S</span>
-          <span className='text-[36px] overflow-hidden leading-7'>PERTFOLIO<span className='text-[12px]'>&copy;</span></span>
+          <span className='text-[36px] overflow-hidden leading-7'>PORTFOLIO<span className='text-[12px]'>&copy;</span></span>
         </div>
       </div>
       <div className="swiper bg-[greenyellow] h-full absolute"></div>
