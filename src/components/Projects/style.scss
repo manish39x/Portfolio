@@ -19,7 +19,7 @@
 .project-3 {
   width: 100%;
   height: 40em;
-  background-image: url(../../assets/sample.png) ;
+  background-image: url(../../assets/pr1.png) ;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,6 +49,19 @@
     letter-spacing: .4rem;
   }
 }
-.animate {
 
+
+
+
+
+
+
+//projectcard
+.project-card {
+  background-image: linear-gradient(to bottom, rgba(138, 138, 138, 0.422), rgba(255, 255, 255, 0.224));
+}
+.more {
+  ul li{
+    list-style-type: disc;
+  }
 }

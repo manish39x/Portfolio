@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import './style.scss'
+import ProjectCard from './ProjectCard'
 
 const Projects = () => {
   const ovserver = new IntersectionObserver((entries) => {
@@ -35,10 +36,10 @@ const Projects = () => {
 
             <h3 className='font-head-title text-white flex-center font-bold'>MY PEOJECTS</h3>
           </div>
-          <div className="project-1 mb-[20px]">
-
+          <div className="project-1 mb-[20px] flex-center">
+            <ProjectCard />
           </div>
-          <div className="project-2">
+          <div className="project-2 mb-[20px]">
 
           </div>
           <div className="project-3">
