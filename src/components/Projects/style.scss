@@ -1,30 +1,4 @@
-.project-1 {
-  width: 100%;
-  height: 40em;
-  background-image: url(../../assets/pr1.png) ;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.project-2 {
-  width: 100%;
-  height: 40em;
-  background-image: url(../../assets/pr2.png) ;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.project-3 {
-  width: 100%;
-  height: 40em;
-  background-image: url(../../assets/pr1.png) ;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
+
 
 .font-head-title {
   font-family: 'Oswald', sans-serif;
@@ -53,12 +27,15 @@
 
 
 
-
+.test{
+  border: 1px solid rgb(0, 255, 34);
+}
 
 
 //projectcard
-.project-card {
-  background-image: linear-gradient(to bottom, rgba(138, 138, 138, 0.422), rgba(255, 255, 255, 0.224));
+.project-card{
+  width: clamp(10rem, 70%, 30rem);
+  border: 1px solid red;
 }
 .more {
   ul li{
