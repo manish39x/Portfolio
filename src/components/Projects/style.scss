@@ -34,11 +34,44 @@
 
 //projectcard
 .project-card{
-  width: clamp(10rem, 70%, 30rem);
-  border: 1px solid red;
+  border-radius: 8px;
+  background-color: #736e6e1f;
+  backdrop-filter: blur(5px);
+  width: clamp(25rem, 70%, 30rem);
 }
+
+.project-btn{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  &:hover{
+    border: 1px solid greenyellow;
+  }
+}
+
+.light{
+  width: 140px;
+  background: linear-gradient(to right, #ff000000, rgba(0, 255, 174, 0.502), rgb(0, 255, 34));
+  animation: slide 1.5s ease-out 0s infinite;
+}
+@keyframes slide {
+
+  0%{
+    left: 0;
+  }
+  100%{
+    left: 100%;
+  }
+  
+}
+
 .more {
   ul li{
     list-style-type: disc;
   }
+}
+
+.layer{
+  width: 100%;
+  height: 50%;
+  background: red;
 }

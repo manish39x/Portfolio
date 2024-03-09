@@ -43,13 +43,28 @@ const Projects = () => {
               MY PEOJECTS
             </h3>
           </div>
-          <div className="projects">
-            {projectData.map((project) => (
+          <div className="interaction relative w-[100vw] h-[2px] bg-[#756e6e00]">
+            <div className="light h-full absolute top-0 left-0"></div>
+          </div>
+          <div className="projects mb-[30px] flex flex-wrap justify-center items-start gap-[20px] px-[.5rem] sm:px-[2rem]">
+            {projectData.map((project, index) => (
               <ProjectCard
                 logo={project.logo}
                 type={project.type}
                 name={project.name}
+                features={project.features}
                 description={project.description}
+                key={index}
+              />
+            ))}
+            {projectData.map((project, index) => (
+              <ProjectCard
+                logo={project.logo}
+                type={project.type}
+                name={project.name}
+                features={project.features}
+                description={project.description}
+                key={index}
               />
             ))}
           </div>
