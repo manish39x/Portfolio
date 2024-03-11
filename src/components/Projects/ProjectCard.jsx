@@ -1,9 +1,9 @@
 import React from "react";
 import cover from "../../assets/cover.jpg";
 
-const ProjectCard = ({ logo, name, description, type, features }) => {
+const ProjectCard = ({ logo, name, description, type, link }) => {
   return (
-    <div className="project-card relative flex flex-col gap-[1rem] items-start p-[1rem]">
+    <div className="project-card relative flex flex-col justify-between gap-[1rem] items-start p-[1rem]">
       <div className="background w-[100%] h-[43%] rounded-sm absolute top-0 left-0 z-[-2] overflow-hidden ">
         <img
           src={cover}
@@ -42,7 +42,7 @@ const ProjectCard = ({ logo, name, description, type, features }) => {
       </div>
       <button className="w-full  project-btn bg-[#736e6e1f] mt-[20px] text-[14px] text-[greenyellow]">
         <a
-          href="https://zoro-anime00.web.app/"
+          href={link}
           target="_blank"
           className=" block w-full h-full py-[10px] "
         >

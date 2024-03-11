@@ -6,6 +6,7 @@ import SkillsList from "./components/SkillsList/SkillsList";
 import SkillLevel from "./components/SkillLevel/SkillLevel";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/ContactForm/Contact";
+import Footer from "./components/Footer/Footer";
 
 const Portfolio = () => {
   const sectionOne = useRef();
@@ -69,6 +70,7 @@ const Portfolio = () => {
       <section className="sectionTwo absolute bg-[red] bottom-0 translate-y-[100%]">
         <Contact />
       </section>
+      <Footer />
     </div>
   );
 };
