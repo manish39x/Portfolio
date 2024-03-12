@@ -8,7 +8,7 @@ export const projectData = [
     logo: logo,
     description:
       "Zoro is an innovative anime streaming platform. Built on the robust MERN (MongoDB, Express.js, React.js, Node.js) stack, Zoro delivers a seamless blend of cutting-edge technology and captivating content, making it the ultimate destination for anime lovers..",
-    link: "https://zoro-anime00.web.app/",
+    link: "https://zoro-4i89.vercel.app/",
     cover: cover,
   },
   {
