@@ -51,7 +51,7 @@
 .light{
   width: 140px;
   background: linear-gradient(to right, #ff000000, rgba(0, 255, 174, 0.502), rgb(0, 255, 34));
-  animation: slide 1.5s ease-out 0s infinite;
+  animation: slide 1.5s ease-out 1s infinite;
 }
 @keyframes slide {
 

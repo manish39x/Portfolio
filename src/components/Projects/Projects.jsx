@@ -43,7 +43,7 @@ const Projects = () => {
               MY PEOJECTS
             </h3>
           </div>
-          <div className="interaction relative w-[100vw] h-[2px] bg-[#756e6e00]">
+          <div className="interaction relative w-[95.5%] m-auto h-[2px] bg-[#80808012]">
             <div className="light h-full absolute top-0 left-0"></div>
           </div>
           <div className="projects mb-[30px] grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 justify-items-center justify-self-center gap-[20px] px-[.5rem] sm:px-[2rem]">

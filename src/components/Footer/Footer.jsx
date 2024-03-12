@@ -3,9 +3,11 @@ import "./style.scss";
 
 const Footer = () => {
   return (
-    <footer className=" text-white font-mono px-[3.5rem] py-[4rem] flex flex-col lg:flex-row gap-[10px] justify-center items-center">
+    <footer className=" text-white font-mono md:px-[3.5rem] px-[1rem] py-[4rem] flex flex-col lg:flex-row gap-[10px] justify-center items-center">
       <div className=" mb-[2rem] max-w-[48rem] flex flex-col items-center lg:items-start">
-        <h4 className="text-[44px]">Get in Touch</h4>
+        <h4 className="text-[32px] md:text-[44px] text-center lg:text-left">
+          Get in Touch
+        </h4>
         <p className="text-normal text-center lg:text-left text-[12px] w-[90%]">
           Thank you for stopping by. I hope you're enjoying your time here. I'm
           passionate about what I do, and I'm always looking for exciting
