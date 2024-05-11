@@ -40,7 +40,7 @@ const Projects = () => {
             </span>
 
             <h3 className="font-head-title text-white flex-center font-bold">
-              MY PEOJECTS
+              MY PROJECTS
             </h3>
           </div>
           <div className="interaction relative w-[95.5%] m-auto h-[2px] bg-[#80808012]">

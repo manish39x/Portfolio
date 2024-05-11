@@ -1,7 +1,9 @@
 import logo from "../../assets/logo.webp";
 import logo2 from "../../assets/movix-logo.png";
+import logo3 from "../../assets/logo3.jpg";
 import cover from "../../assets/cover.jpg";
 import cover2 from "../../assets/cover2.jpeg";
+import cover3Chat from "../../assets/chat-bg2.jpg";
 export const projectData = [
   {
     name: "ZORO",
@@ -20,11 +22,12 @@ export const projectData = [
     cover: cover2,
   },
   {
-    name: "SHADOW",
-    logo: logo,
+    name: "CHAT_BUCKET",
+    logo: logo3,
     description:
       "Zoro is an innovative anime streaming platform. Built on the robust MERN (MongoDB, Express.js, React.js, Node.js) stack, Zoro delivers a seamless blend of cutting-edge technology and captivating content, making it the ultimate destination for anime lovers..",
-    cover: cover,
+    link: "https://project-chat-q7t9.onrender.com/",
+    cover: cover3Chat,
   },
   {
     name: "VERCEL",

@@ -42,9 +42,8 @@
 
 .project-btn{
   border-radius: 8px;
-  border: 1px solid transparent;
   &:hover{
-    border: 1px solid greenyellow;
+    background: linear-gradient(to left, rgba(161, 219, 0, 0.92), rgba(2, 223, 164, 0.986));
   }
 }
 
@@ -74,6 +73,8 @@
   background: linear-gradient(to top, #222325, #242427, #33303081);
 }
 
-
+.bg-btn{
+  background: linear-gradient(to left, rgba(141, 190, 4, 0.92), rgba(4, 160, 118, 0.986));
+}
 
 

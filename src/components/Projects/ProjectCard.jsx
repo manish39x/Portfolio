@@ -43,7 +43,7 @@ const ProjectCard = ({ logo, name, description, type, link, cover }) => {
             </li>
           </ul>
         </div>
-        <button className="w-full  project-btn bg-[#736e6e1f] mt-[20px] text-[14px] text-[greenyellow]">
+        <button className="w-full  project-btn bg-btn mt-[20px] text-[14px] text-[#252525]">
           <a
             href={link}
             target="_blank"
