@@ -43,14 +43,14 @@ const Portfolio = () => {
             <span className="flex items-center flex-wrap gap-x-[5px]">
               <ion-icon name="globe-outline"></ion-icon>
               <span className="text-[11px] sm:text-[14px] normal-text font-semibold text-[#a5a5a5]">
-                \doluimanish.dev@gmail.com
+                manish39x@gmail.com
               </span>
             </span>
 
             <span className="flex items-center flex-wrap gap-x-[5px]">
               <ion-icon name="call-outline"></ion-icon>
               <span className="text-[11px] sm:text-[14px] normal-text font-semibold text-[#a5a5a5]">
-                +91 9065231675
+                +91 9062231672
               </span>
             </span>
 

@@ -1,4 +1,7 @@
 @import '../../sass/variable';
+@import '../../sass/utils.scss';
+
+
 .header {
   border-bottom: .5px solid $border-color;
 }
@@ -23,4 +26,18 @@
   to {
     transform: translate(-100%);
   }
+}
+
+
+.top-menu{
+  border-bottom: .3px solid gray;
+}
+
+.social-links{
+  color: gray;
+  font-size: 25px;
+  cursor: pointer;
+}
+.social-links:hover{
+  color: $onLight;
 }

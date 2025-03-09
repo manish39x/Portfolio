@@ -1,5 +1,6 @@
 
 @import '../../sass/variable';
+@import '../../sass/utils.scss';
 
 .spotlight {
   border-left: .5px solid $border-color;
@@ -23,4 +24,22 @@
 .eye-box {
   width: clamp(100px, 20vw, 18rem);
   height: clamp(100px, 20vw, 18rem);
+}
+
+
+
+.dim-effect{
+  color: $onLight;
+}
+
+.cross{
+  background: $onLight;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.devide{
+  border: .3px solid gray;
 }
