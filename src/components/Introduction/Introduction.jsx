@@ -10,15 +10,16 @@ const Introduction = () => {
             <span className="text-[greenyellow]">01 </span>INTRODUCTION
           </span>
           <div className="introduction text-[#cecece] text-[13px] sm:text-[15px] w-[94%] lg:w-[55%] m-auto">
-            Hi, I'm <span className="text-[greenyellow]">Manish</span>, a
-            passionate Web Developer and Data Science student at IIT Madras.
-            With hands-on experience in the MERN stack, I specialize in building
-            dynamic web applications that deliver great user experiences. I’m
-            also deeply interested in AI/ML and high-performance systems,
-            constantly learning and experimenting with new technologies. Beyond
-            coding, I lead and contribute to open-source projects through my
-            club, OpenSphere. My mission? To solve real-world problems through
-            technology and innovation.
+            Hi, I'm <span className="text-[greenyellow]">Manish</span>! I build
+            data pipelines — real-time streaming, batch ETL, and the
+            infrastructure underneath. Currently pursuing a B.S. in Data Science
+            & Applications (IIT Madras) while working hands-on with Kafka,
+            Spark, dbt, and Airflow.Recent work: a real-time flight telemetry
+            pipeline (OpenSky → Kafka → Databricks/Delta Lake), a billion-row
+            NYC taxi pipeline (Airflow, dbt, Snowflake), and a Kafka broker
+            built from scratch to actually understand what's happening under the
+            hood. I like taking systems apart to see how they work, then
+            building better versions.
           </div>
           <span className="text-white text-[14px] absolute bottom-[10px] right-[10px]">
             <span className="text-[greenyellow]">01 </span>INTRODUCTION
